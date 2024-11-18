@@ -1,11 +1,11 @@
 <h1>Sistema para uma loja de maquiagem em linguagem C# ❀<br></h1>
-Ele contém um crud para funcionário, cliente, venda e produto e permite que o funcionário ou administrador gerencie o estoque por meio do sistema também.<br>
+Ele contém um crud para funcionário, cliente, venda, tipo de produto, marca e produto e permite que o funcionário ou administrador gerencie o estoque por meio do sistema também.<br>
 A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente colocada no servidor XAMPP CONTROL PANEL.<br>
 <br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
 <br>
-Abaixo estará informações de como colocar nossa base de dados no XAMPP:<br>
+<h2>Abaixo estará informações de como colocar nossa base de dados no XAMPP:</h2><br>
 1- Baixar o  XAMPP CONTROL PANEL.<br>
 2- Clicar no simbolo, abrirá uma tela.<br>
 3- Nessa tela voce terá que deixar abilitado o Apache e o Mysql, eles estarão verdes quando estiverem abilitados. A imagem abaixo exemplifica como deverá estar.<br>
@@ -21,6 +21,18 @@ Abaixo estará informações de como colocar nossa base de dados no XAMPP:<br>
 ![image](https://github.com/user-attachments/assets/2d4580cf-0350-449b-b614-efa2fce68c0e)<br>
 9- Colar o código do banco de dados e clicar em executar.<br>
 10- O banco de dados está pronto para ser usado.<br>
+<br>
+❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
+<br><br>
+<h2>Tarefas que cada integrante do grupo realizou</h2>
+Protótipo: Isabela e laura
+Hitórias de usuário: Náthali e Maria Fernanda
+Banco de Dados: Isabela e Laura
+Login, Cadastro de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Náthali
+Visualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Laura
+Atualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Maria Fernanda
+Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Isabela
+
 
 
 
