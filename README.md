@@ -1,7 +1,7 @@
 <h1>Sistema para uma loja de maquiagem em linguagem C#.<br></h1>
 Ele contém um crud para funcionário, cliente, venda e produto e permite que o funcionário ou administrador gerencie o estoque por meio do sistema também.<br>
 A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente colocada no servidor XAMPP CONTROL PANEL.<br>
-❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°❀˖°
+❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
 Abaixo estará informações de como colocar nossa base de dados no XAMPP:<br>
 1- Baixar o  XAMPP CONTROL PANEL.<br>
