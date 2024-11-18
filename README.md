@@ -3,6 +3,7 @@ Ele contém um crud para funcionário, cliente, venda e produto e permite que o 
 A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente colocada no servidor XAMPP CONTROL PANEL.<br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 
 <br>
+<br>
 Abaixo estará informações de como colocar nossa base de dados no XAMPP:<br>
 1- Baixar o  XAMPP CONTROL PANEL.<br>
 2- Clicar no simbolo, abrirá uma tela.<br>
