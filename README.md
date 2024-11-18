@@ -1,11 +1,14 @@
-<h1>Sistema para uma loja de maquiagem em linguagem C# ❀<br></h1>
+<h1>Sistema para uma loja de maquiagem em linguagem C# ❀</h1>
+<br>
 Ele contém um crud para funcionário, cliente, venda, tipo de produto, marca e produto e permite que o funcionário ou administrador gerencie o estoque por meio do sistema também.<br>
-A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente colocada no servidor XAMPP CONTROL PANEL.<br>
+A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente colocada no servidor XAMPP CONTROL PANEL.
+<br>
 <br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
 <br>
-<h2>Abaixo estará informações de como colocar nossa base de dados no XAMPP:</h2><br>
+<h2>Abaixo estará informações de como colocar nossa base de dados no XAMPP:</h2>
+<br>
 1- Baixar o  XAMPP CONTROL PANEL.<br>
 2- Clicar no simbolo, abrirá uma tela.<br>
 3- Nessa tela voce terá que deixar abilitado o Apache e o Mysql, eles estarão verdes quando estiverem abilitados. A imagem abaixo exemplifica como deverá estar.<br>
@@ -23,7 +26,8 @@ A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente coloc
 10- O banco de dados está pronto para ser usado.<br>
 <br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
-<br><br>
+<br>
+<br>
 <h2>Tarefas que cada integrante do grupo realizou</h2>
 Protótipo: Isabela e laura
 Hitórias de usuário: Náthali e Maria Fernanda
@@ -32,6 +36,14 @@ Login, Cadastro de funcionário, cliente, venda, produto, marca , tipo de produt
 Visualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Laura
 Atualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Maria Fernanda
 Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Isabela
+<br>
+❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
+<br>
+<br>
+<h2>Imagens utilizadas no Excluir</h2></h2>
+fundo:![fundo](https://github.com/user-attachments/assets/ba9739cc-d36a-4471-95fe-c05d7bb6dc3b)
+
+
 
 
 
