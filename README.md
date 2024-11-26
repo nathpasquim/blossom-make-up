@@ -6,7 +6,7 @@ A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente coloc
 <br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
-<br>
+
 <h2>Abaixo estará informações de como colocar nossa base de dados no XAMPP:</h2>
 <br>
 1- Baixar o  XAMPP CONTROL PANEL.<br>
@@ -25,6 +25,7 @@ A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente coloc
 9- Colar o código do banco de dados e clicar em executar.<br>
 10- O banco de dados está pronto para ser usado.<br>
 <br>
+<br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
 <br>
@@ -36,6 +37,7 @@ Login, Cadastro de funcionário, cliente, venda, produto, marca , tipo de produt
 Visualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Laura
 Atualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Maria Fernanda
 Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Isabela
+<br>
 <br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
