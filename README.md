@@ -41,8 +41,11 @@ Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e pr
 <br>
 <br>
 <h2>Imagens utilizadas no Excluir</h2></h2>
-fundo:![fundo](https://github.com/user-attachments/assets/ba9739cc-d36a-4471-95fe-c05d7bb6dc3b)
-nav bar: ![vendaExclusao__1_-removebg-preview](https://github.com/user-attachments/assets/1428c78f-afe8-4a7e-a1fa-17cb0f9ff3b6)
+fundo nas telas de tamanho 918; 613:![fundo](https://github.com/user-attachments/assets/ba9739cc-d36a-4471-95fe-c05d7bb6dc3b) <br>
+nav bar: ![vendaExclusao__1_-removebg-preview](https://github.com/user-attachments/assets/1428c78f-afe8-4a7e-a1fa-17cb0f9ff3b6)<br>
+fundo nas telas de tamanho 459; 489 :![fundo2](https://github.com/user-attachments/assets/431ed3a0-dca2-48ed-a520-680c9140693d)<br>
+
+
 
 
 
