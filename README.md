@@ -25,9 +25,7 @@ A modelagem do banco de dados foi realizada pelo brmodelo e posteriormente coloc
 9- Colar o código do banco de dados e clicar em executar.<br>
 10- O banco de dados está pronto para ser usado.<br>
 <br>
-<br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
-<br>
 <br>
 <h2>Tarefas que cada integrante do grupo realizou</h2>
 Protótipo: Isabela e laura
@@ -38,9 +36,7 @@ Visualização de funcionário, cliente, venda, produto, marca , tipo de produto
 Atualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Maria Fernanda
 Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Isabela
 <br>
-<br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
-<br>
 <br>
 <h2>Imagens utilizadas no Excluir</h2></h2>
 fundo nas telas de tamanho 918; 613:![fundo](https://github.com/user-attachments/assets/ba9739cc-d36a-4471-95fe-c05d7bb6dc3b) <br>
