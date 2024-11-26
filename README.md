@@ -36,6 +36,7 @@ Visualização de funcionário, cliente, venda, produto, marca , tipo de produto
 Atualização de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Maria Fernanda
 Exclusão de funcionário, cliente, venda, produto, marca , tipo de produto e produto: Isabela
 <br>
+<br>
 ❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。❀。• *₊°。 ❀°。
 <br>
 <h2>Imagens utilizadas no Excluir</h2></h2>
