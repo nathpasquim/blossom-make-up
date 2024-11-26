@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Nov-2024 às 13:13
+-- Tempo de geração: 26-Nov-2024 às 18:10
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.0
 
@@ -24,17 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `administra`
---
-
-CREATE TABLE `administra` (
-  `FK_funcionario_codigo` int(11) DEFAULT NULL,
-  `FK_funcionario_codigo_` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
 -- Estrutura da tabela `cliente`
 --
 
@@ -43,16 +32,8 @@ CREATE TABLE `cliente` (
   `cpf` varchar(255) DEFAULT NULL,
   `telefone` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
-  `codigo` int(11) NOT NULL
+  `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `cliente`
---
-
-INSERT INTO `cliente` (`nome`, `cpf`, `telefone`, `email`, `codigo`) VALUES
-('isabela leme cruz', '63309449033', '19998030777', 'kkkkkk@gmail.com', 1),
-('[value-1]', '[value-2]', '[value-3]', '[value-4]', 2);
 
 -- --------------------------------------------------------
 
@@ -65,18 +46,11 @@ CREATE TABLE `funcionario` (
   `salario` varchar(255) DEFAULT NULL,
   `cep` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
-  `codigo` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `nome` varchar(255) DEFAULT NULL,
   `numeroCasa` varchar(255) DEFAULT NULL,
-  `FK_venda_codigo` int(11) DEFAULT NULL
+  `FK_venda_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `funcionario`
---
-
-INSERT INTO `funcionario` (`cpf`, `salario`, `cep`, `email`, `codigo`, `nome`, `numeroCasa`, `FK_venda_codigo`) VALUES
-('39590033075', '2000', '13002909', 'kkkkkk@gmail.com', 1, 'luisa silveira da silva', '42', NULL);
 
 -- --------------------------------------------------------
 
@@ -85,8 +59,8 @@ INSERT INTO `funcionario` (`cpf`, `salario`, `cep`, `email`, `codigo`, `nome`, `
 --
 
 CREATE TABLE `funcionariocliente` (
-  `FK_funcionario_codigo` int(11) DEFAULT NULL,
-  `FK_cliente_codigo` int(11) DEFAULT NULL
+  `FK_funcionario_id` int(11) DEFAULT NULL,
+  `FK_cliente_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -96,8 +70,8 @@ CREATE TABLE `funcionariocliente` (
 --
 
 CREATE TABLE `funcionarioproduto` (
-  `FK_funcionario_codigo` int(11) DEFAULT NULL,
-  `FK_produto_codigo` int(11) DEFAULT NULL
+  `FK_funcionario_id` int(11) DEFAULT NULL,
+  `FK_produto_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -107,16 +81,9 @@ CREATE TABLE `funcionarioproduto` (
 --
 
 CREATE TABLE `marca` (
-  `codigo` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `nome` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `marca`
---
-
-INSERT INTO `marca` (`codigo`, `nome`) VALUES
-(1, 'mari maria makeup');
 
 -- --------------------------------------------------------
 
@@ -125,19 +92,13 @@ INSERT INTO `marca` (`codigo`, `nome`) VALUES
 --
 
 CREATE TABLE `produto` (
-  `codigo` int(11) NOT NULL,
-  `preco` int(11) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `preco` float DEFAULT NULL,
   `quantidade` int(11) DEFAULT NULL,
-  `FK_tipo_codigo` int(11) DEFAULT NULL,
-  `FK_marca_codigo` int(11) DEFAULT NULL
+  `FK_tipo_id` int(11) DEFAULT NULL,
+  `FK_marca_id` int(11) DEFAULT NULL,
+  `nome` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `produto`
---
-
-INSERT INTO `produto` (`codigo`, `preco`, `quantidade`, `FK_tipo_codigo`, `FK_marca_codigo`) VALUES
-(1, 23, 6, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -146,17 +107,9 @@ INSERT INTO `produto` (`codigo`, `preco`, `quantidade`, `FK_tipo_codigo`, `FK_ma
 --
 
 CREATE TABLE `tipo` (
-  `codigo` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `nome` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Extraindo dados da tabela `tipo`
---
-
-INSERT INTO `tipo` (`codigo`, `nome`) VALUES
-(1, 'máscara de cílios'),
-(2, '[value-2]');
 
 -- --------------------------------------------------------
 
@@ -165,12 +118,12 @@ INSERT INTO `tipo` (`codigo`, `nome`) VALUES
 --
 
 CREATE TABLE `venda` (
-  `codigo` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `funcionario` varchar(255) DEFAULT NULL,
   `produtos` varchar(255) DEFAULT NULL,
   `cliente` varchar(255) DEFAULT NULL,
   `valor` int(11) DEFAULT NULL,
-  `FK_cliente_codigo` int(11) DEFAULT NULL
+  `FK_cliente_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -180,8 +133,8 @@ CREATE TABLE `venda` (
 --
 
 CREATE TABLE `vendaproduto` (
-  `FK_produto_codigo` int(11) DEFAULT NULL,
-  `FK_venda_codigo` int(11) DEFAULT NULL
+  `FK_produto_id` int(11) DEFAULT NULL,
+  `FK_venda_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -189,72 +142,65 @@ CREATE TABLE `vendaproduto` (
 --
 
 --
--- Índices para tabela `administra`
---
-ALTER TABLE `administra`
-  ADD KEY `FK_administra_0` (`FK_funcionario_codigo`),
-  ADD KEY `FK_administra_1` (`FK_funcionario_codigo_`);
-
---
 -- Índices para tabela `cliente`
 --
 ALTER TABLE `cliente`
-  ADD PRIMARY KEY (`codigo`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Índices para tabela `funcionario`
 --
 ALTER TABLE `funcionario`
-  ADD PRIMARY KEY (`codigo`),
-  ADD KEY `FK_funcionario_1` (`FK_venda_codigo`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_funcionario_1` (`FK_venda_id`);
 
 --
 -- Índices para tabela `funcionariocliente`
 --
 ALTER TABLE `funcionariocliente`
-  ADD KEY `FK_funcionarioCliente_0` (`FK_funcionario_codigo`),
-  ADD KEY `FK_funcionarioCliente_1` (`FK_cliente_codigo`);
+  ADD KEY `FK_funcionarioCliente_0` (`FK_funcionario_id`),
+  ADD KEY `FK_funcionarioCliente_1` (`FK_cliente_id`);
 
 --
 -- Índices para tabela `funcionarioproduto`
 --
 ALTER TABLE `funcionarioproduto`
-  ADD KEY `FK_funcionarioProduto_0` (`FK_funcionario_codigo`),
-  ADD KEY `FK_funcionarioProduto_1` (`FK_produto_codigo`);
+  ADD KEY `FK_funcionarioProduto_0` (`FK_funcionario_id`),
+  ADD KEY `FK_funcionarioProduto_1` (`FK_produto_id`);
 
 --
 -- Índices para tabela `marca`
 --
 ALTER TABLE `marca`
-  ADD PRIMARY KEY (`codigo`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Índices para tabela `produto`
 --
 ALTER TABLE `produto`
-  ADD PRIMARY KEY (`codigo`),
-  ADD KEY `FK_produto_1` (`FK_tipo_codigo`),
-  ADD KEY `FK_produto_2` (`FK_marca_codigo`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_produto_1` (`FK_tipo_id`),
+  ADD KEY `FK_produto_2` (`FK_marca_id`);
 
 --
 -- Índices para tabela `tipo`
 --
 ALTER TABLE `tipo`
-  ADD PRIMARY KEY (`codigo`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Índices para tabela `venda`
 --
 ALTER TABLE `venda`
-  ADD PRIMARY KEY (`codigo`),
-  ADD KEY `FK_venda_1` (`FK_cliente_codigo`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK_venda_1` (`FK_cliente_id`);
 
 --
 -- Índices para tabela `vendaproduto`
 --
 ALTER TABLE `vendaproduto`
-  ADD KEY `FK_vendaProduto_0` (`FK_produto_codigo`),
-  ADD KEY `FK_vendaProduto_1` (`FK_venda_codigo`);
+  ADD KEY `FK_vendaProduto_0` (`FK_produto_id`),
+  ADD KEY `FK_vendaProduto_1` (`FK_venda_id`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
@@ -264,88 +210,81 @@ ALTER TABLE `vendaproduto`
 -- AUTO_INCREMENT de tabela `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `funcionario`
 --
 ALTER TABLE `funcionario`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `marca`
 --
 ALTER TABLE `marca`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `produto`
 --
 ALTER TABLE `produto`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `tipo`
 --
 ALTER TABLE `tipo`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `venda`
 --
 ALTER TABLE `venda`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restrições para despejos de tabelas
 --
 
 --
--- Limitadores para a tabela `administra`
---
-ALTER TABLE `administra`
-  ADD CONSTRAINT `FK_administra_0` FOREIGN KEY (`FK_funcionario_codigo`) REFERENCES `funcionario` (`codigo`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `FK_administra_1` FOREIGN KEY (`FK_funcionario_codigo_`) REFERENCES `funcionario` (`codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
 -- Limitadores para a tabela `funcionario`
 --
 ALTER TABLE `funcionario`
-  ADD CONSTRAINT `FK_funcionario_1` FOREIGN KEY (`FK_venda_codigo`) REFERENCES `venda` (`codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_funcionario_1` FOREIGN KEY (`FK_venda_id`) REFERENCES `venda` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limitadores para a tabela `funcionariocliente`
 --
 ALTER TABLE `funcionariocliente`
-  ADD CONSTRAINT `FK_funcionarioCliente_0` FOREIGN KEY (`FK_funcionario_codigo`) REFERENCES `funcionario` (`codigo`),
-  ADD CONSTRAINT `FK_funcionarioCliente_1` FOREIGN KEY (`FK_cliente_codigo`) REFERENCES `cliente` (`codigo`) ON DELETE SET NULL ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_funcionarioCliente_0` FOREIGN KEY (`FK_funcionario_id`) REFERENCES `funcionario` (`id`),
+  ADD CONSTRAINT `FK_funcionarioCliente_1` FOREIGN KEY (`FK_cliente_id`) REFERENCES `cliente` (`id`) ON DELETE SET NULL ON UPDATE CASCADE;
 
 --
 -- Limitadores para a tabela `funcionarioproduto`
 --
 ALTER TABLE `funcionarioproduto`
-  ADD CONSTRAINT `FK_funcionarioProduto_0` FOREIGN KEY (`FK_funcionario_codigo`) REFERENCES `funcionario` (`codigo`),
-  ADD CONSTRAINT `FK_funcionarioProduto_1` FOREIGN KEY (`FK_produto_codigo`) REFERENCES `produto` (`codigo`) ON DELETE SET NULL ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_funcionarioProduto_0` FOREIGN KEY (`FK_funcionario_id`) REFERENCES `funcionario` (`id`),
+  ADD CONSTRAINT `FK_funcionarioProduto_1` FOREIGN KEY (`FK_produto_id`) REFERENCES `produto` (`id`) ON DELETE SET NULL ON UPDATE CASCADE;
 
 --
 -- Limitadores para a tabela `produto`
 --
 ALTER TABLE `produto`
-  ADD CONSTRAINT `FK_produto_1` FOREIGN KEY (`FK_tipo_codigo`) REFERENCES `tipo` (`codigo`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `FK_produto_2` FOREIGN KEY (`FK_marca_codigo`) REFERENCES `marca` (`codigo`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_produto_1` FOREIGN KEY (`FK_tipo_id`) REFERENCES `tipo` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_produto_2` FOREIGN KEY (`FK_marca_id`) REFERENCES `marca` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limitadores para a tabela `venda`
 --
 ALTER TABLE `venda`
-  ADD CONSTRAINT `FK_venda_1` FOREIGN KEY (`FK_cliente_codigo`) REFERENCES `cliente` (`codigo`);
+  ADD CONSTRAINT `FK_venda_1` FOREIGN KEY (`FK_cliente_id`) REFERENCES `cliente` (`id`);
 
 --
 -- Limitadores para a tabela `vendaproduto`
 --
 ALTER TABLE `vendaproduto`
-  ADD CONSTRAINT `FK_vendaProduto_0` FOREIGN KEY (`FK_produto_codigo`) REFERENCES `produto` (`codigo`),
-  ADD CONSTRAINT `FK_vendaProduto_1` FOREIGN KEY (`FK_venda_codigo`) REFERENCES `venda` (`codigo`) ON DELETE SET NULL ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_vendaProduto_0` FOREIGN KEY (`FK_produto_id`) REFERENCES `produto` (`id`),
+  ADD CONSTRAINT `FK_vendaProduto_1` FOREIGN KEY (`FK_venda_id`) REFERENCES `venda` (`id`) ON DELETE SET NULL ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
