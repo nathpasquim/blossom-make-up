@@ -1,0 +1,101 @@
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.exe.config
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.exe
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.pdb
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csproj.AssemblyReference.cache
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.splash_screen.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.form1.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.Properties.Resources.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csproj.GenerateResource.cache
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csproj.CoreCompileInputs.cache
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.exe
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.pdb
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Guna.UI2.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.AdmLogin.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.Forml.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimM.F41CBE92.Up2Date
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\MySqlConnector.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Buffers.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Memory.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\MySqlConnector.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Buffers.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Memory.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroClien.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroFunc.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroProduto.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroVenda.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.FuncLogin.resources
+C:\Users\jonas\source\repos\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.menuFunc.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.exe.config
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.exe
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\BlossimMakeup.pdb
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\BouncyCastle.Cryptography.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Google.Protobuf.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Guna.UI2.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Compression.LZ4.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Hash.xxHash.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\MySql.Data.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\MySQLConnection.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\MySqlConnector.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Buffers.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Configuration.ConfigurationManager.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.IO.Pipelines.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Memory.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Numerics.Vectors.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\ZstdSharp.dll
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\BouncyCastle.Cryptography.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Google.Protobuf.pdb
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Google.Protobuf.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Compression.LZ4.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\K4os.Hash.xxHash.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\MySql.Data.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\MySqlConnector.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Buffers.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Configuration.ConfigurationManager.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.IO.Pipelines.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Memory.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Numerics.Vectors.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csprojAssemblyReference.cache
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.exe.config
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.AdmLogin.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroClien.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroFunc.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroProduto.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.cadastroVenda.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.FuncLogin.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.menuFunc.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.splash_screen.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.Forml.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.form1.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.Properties.Resources.resources
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csproj.GenerateResource.cache
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.csproj.CopyComplete
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.exe
+G:\SÓ DEUS SABE SE ESTÁ CERTO\BlossimMakeup\BlossimMakeup\obj\Debug\BlossimMakeup.pdb
